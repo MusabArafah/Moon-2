@@ -179,3 +179,23 @@ a {
         width: 22%;
     }
 }
+
+@media (max-width: 480px) {
+
+    .header .list,
+    .header .icons {
+        display: none !important;
+    }
+
+    .header .row {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .header .logo {
+        margin-right: 15px;
+
+    }
+
+}
