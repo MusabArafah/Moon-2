@@ -170,7 +170,7 @@ a {
     }
 
     .collection {
-        width: 30%;
+        width: calc(25% - 15px);
     }
 }
 
